@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(12, 12, 12, 0.1);
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+.main {
+    height: 80vh;
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00FFB0;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.main p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons .btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn.primary {
+    background-color: #00FFB0;
+    color: white;
+}
+
+.btn.secondary {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* UI/UX Design Section */
+.design-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 40px;
+    background-color: #f9f9f9;
+}
+
+.design-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.design-content h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.design-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.design-content p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.design-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
